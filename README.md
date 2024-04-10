@@ -1,0 +1,5 @@
+# BenchCalendar
+## Build
+```bash
+$ tsc
+```

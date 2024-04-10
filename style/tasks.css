@@ -1,0 +1,52 @@
+#tasks-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+#task-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#task-table th, #task-table td {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+#task-table-container {
+    padding-top: 14px;
+    width: 50%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#progress-calendar-container {
+    padding-bottom: 14px;
+    width: 50%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    transform: rotateX(180deg);
+}
+
+#progress-calendar {
+    transform: rotateX(180deg);
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#progress-calendar th, #progress-calendar td {
+    min-width: 3rem;
+    max-width: 3rem;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+#progress-calendar .past {
+    background: rgb(0, 0, 0, 0.4)
+}
+
+#progress-calendar .today {
+    background: rgba(251, 255, 0, 0.4)
+}
